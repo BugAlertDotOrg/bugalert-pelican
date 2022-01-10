@@ -482,14 +482,6 @@
       {% for title, link, css_class in MENUITEMS %}
       <a class="{{ css_class }} " href="{{ link }}">{{ _(title) }}</a>
       {% endfor %}
-
-      {% if FEED_ALL_ATOM %}
-      <a class="nomobile" href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">{{ _('Atom') }}</a>
-      {% endif %}
-
-      {% if FEED_ALL_RSS %}
-      <a class="nomobile" href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}">{{ _('RSS') }}</a>
-      {% endif %}
     </nav>
     {% endif %}
 

@@ -45,14 +45,13 @@ DATE_FORMATS = {
 }
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
-#FEED_ALL_RSS = "feeds/all.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
+TAG_FEED_ATOM = "feeds/{slug}.atom.xml"
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-GITHUB_CORNER_URL = "https://github.com/sullivanmatt/bugalert"
-
 USE_FOLDER_AS_CATEGORY = False
+
+GITHUB_CORNER_URL = "https://github.com/sullivanmatt/bugalert"
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
 
@@ -91,6 +90,7 @@ MENUITEMS = (
     ("My Subscriptions", "/content/pages/my-subscriptions.html", ""),
     ("Categories", "/categories.html", "nomobile"),
     ("Tags", "/tags.html", "nomobile"),
+    ("Atom (RSS)", "/content/pages/atom.html", "nomobile"),
 )
 
 CC_LICENSE = {
