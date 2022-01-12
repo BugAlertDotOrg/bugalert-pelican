@@ -82,6 +82,7 @@ TAG_SAVE_AS = 'tags/{slug}.html'
 SOCIAL = (
     ("github", "https://github.com/sullivanmatt/bugalert"),
     ("twitter", "https://twitter.com/BugAlertDotOrg"),
+    ("telegram", "https://t.me/s/BugAlert"),
     ("rss", "/feeds/all.atom.xml"),
 )
 
