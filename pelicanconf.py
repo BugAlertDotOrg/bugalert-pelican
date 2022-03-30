@@ -29,8 +29,8 @@ DISPLAY_PAGES_ON_MENU = False
 # JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 MARKDOWN = {'extension_configs': { 'pymdownx.tilde': {}
-                                 , 'markdown.extensions.fenced_code': {}
-                                 , 'markdown.extensions.tables': {}}}
+                                    , 'markdown.extensions.fenced_code': {}
+                                    , 'markdown.extensions.tables': {}}}
 
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['manifest']
@@ -38,7 +38,7 @@ PLUGINS = ['manifest']
 I18N_TEMPLATES_LANG = "en"
 DEFAULT_LANG = "en"
 OG_LOCALE = "en_US"
-LOCALE = "en_US"
+LOCALE = "en_US.UTF-8"
 
 # DATE_FORMATS = {
 #     'en': ('en_US','%a, %d %b %Y')
