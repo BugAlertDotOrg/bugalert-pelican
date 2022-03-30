@@ -40,9 +40,9 @@ DEFAULT_LANG = "en"
 OG_LOCALE = "en_US"
 LOCALE = "en_US"
 
-DATE_FORMATS = {
-    'en': ('en_US','%a, %d %b %Y')
-}
+# DATE_FORMATS = {
+#     'en': ('en_US','%a, %d %b %Y')
+# }
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
