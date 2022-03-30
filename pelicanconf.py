@@ -17,7 +17,8 @@ ROBOTS = "index, follow"
 THEME = "./theme"
 PATH = "../content"
 OUTPUT_PATH = "../output/"
-TIMEZONE = "America/New_York"
+#TIMEZONE = "America/New_York" # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1001774
+TIMEZONE = "Etc/UTC"
 
 DISABLE_URL_HASH = True
 DISPLAY_PAGES_ON_MENU = False
