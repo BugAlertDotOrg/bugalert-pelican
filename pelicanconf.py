@@ -39,13 +39,9 @@ I18N_TEMPLATES_LANG = "en"
 DEFAULT_LANG = "en"
 OG_LOCALE = "en_US"
 # LOCALE = "en_US.UTF-8"
-LOCALE = "en_US.utf8"
 
-# DATE_FORMATS = {
-#     'en': ('en_US','%a, %d %b %Y')
-# }
 DATE_FORMATS = {
-    'en_US.utf8': ('en_US.utf8', '%a, %d %b %Y')
+    "en": "%B %d, %Y",
 }
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
