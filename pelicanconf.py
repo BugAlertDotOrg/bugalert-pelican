@@ -41,7 +41,7 @@ OG_LOCALE = "en_US"
 LOCALE = "en_US"
 
 DATE_FORMATS = {
-    "en": "%B %d, %Y",
+    'en': ('en_US','%a, %d %b %Y')
 }
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
