@@ -5,8 +5,8 @@ SITEURL = "https://bugalert.org"
 SUBSCRIPTIONSURL = "https://subscriptions.bugalert.org"
 SITENAME = "Bug Alert"
 SITETITLE = "Bug Alert"
-SITESUBTITLE = "A service for alerting security and IT professionals of high-impact and 0day vulnerabilities."
-SITEDESCRIPTION = "A service for alerting security and IT professionals of high-impact and 0day vulnerabilities."
+SITESUBTITLE = "A nonprofit service for alerting security and IT professionals of high-impact and 0day vulnerabilities."
+SITEDESCRIPTION = "A nonprofit service for alerting security and IT professionals of high-impact and 0day vulnerabilities."
 SITELOGO = '/images/bug.svg'
 FAVICON = '/images/bug.svg'
 BROWSER_COLOR = "#333333"
@@ -84,7 +84,7 @@ SOCIAL = (
     ("github", "https://github.com/sullivanmatt/bugalert"),
     ("twitter", "https://twitter.com/BugAlertDotOrg"),
     ("telegram", "https://t.me/s/BugAlert"),
-    ("rss", "/feeds/all.atom.xml"),
+    ("rss", "/content/pages/atom.html"),
 )
 
 MENUITEMS = (
